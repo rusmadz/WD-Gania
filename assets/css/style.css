@@ -1,0 +1,20 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header,
+header * {
+    outline: 1px dashed blue;
+    
+}
+
+header{
+    width: 100%;
+    & nav{
+        display: flex;
+        justify-content: center; 
+        
+
+    }
+}
